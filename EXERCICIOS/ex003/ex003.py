@@ -28,10 +28,10 @@ class ContaBancaria:
 
 #Criação e uso de objetos
 c1 = ContaBancaria(112,"Gustavo", 3000)
-#print(c1.__doc__)
+print(c1.__doc__)
 
 c1.depositar(500)
-c1.sacar(2000000)
+c1.sacar(2000)
 
 print(c1)
 

@@ -1,5 +1,5 @@
 from rich import print, inspect
-from classesex005 import Aluno, Professor, Funcionario
+from classesex005 import *
 
 
 a1 = Aluno("José", 17, "Informática", "T01")

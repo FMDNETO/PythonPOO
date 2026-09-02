@@ -1,5 +1,6 @@
 #Declaração das classes
 class Gafanhoto:
+    "Documentando a classe para ser usada com as docStrings"
     """
     Essa classe cria um Gafanhoto que tem nome e idade.
     Para criar uma nova classe use:
@@ -22,6 +23,7 @@ class Gafanhoto:
 
 
 #Declaração de objetos
+print(Gafanhoto.__doc__)
 
 g1 = Gafanhoto("Maria",17)
 print(g1)
@@ -31,7 +33,7 @@ print(g1.__getstate__())
 g2 = Gafanhoto("João",18)
 print(g2)
 
-g3 = Gafanhoto()
+g3 = Gafanhoto("Manu", 7)
 print(g3)
 
 
